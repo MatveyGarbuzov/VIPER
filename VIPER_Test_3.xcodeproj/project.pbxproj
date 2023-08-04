@@ -10,9 +10,21 @@
 		1C7333352A7AADF1006479B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333342A7AADF1006479B0 /* AppDelegate.swift */; };
 		1C7333372A7AADF1006479B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333362A7AADF1006479B0 /* SceneDelegate.swift */; };
 		1C7333392A7AADF1006479B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333382A7AADF1006479B0 /* ViewController.swift */; };
-		1C73333C2A7AADF1006479B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C73333A2A7AADF1006479B0 /* Main.storyboard */; };
 		1C73333E2A7AADF3006479B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C73333D2A7AADF3006479B0 /* Assets.xcassets */; };
 		1C7333412A7AADF3006479B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C73333F2A7AADF3006479B0 /* LaunchScreen.storyboard */; };
+		1C73334A2A7AAE93006479B0 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333492A7AAE93006479B0 /* ToDoListView.swift */; };
+		1C73334C2A7AAE9D006479B0 /* ToDoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73334B2A7AAE9D006479B0 /* ToDoInteractor.swift */; };
+		1C73334E2A7AAEA5006479B0 /* ToDoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73334D2A7AAEA5006479B0 /* ToDoPresenter.swift */; };
+		1C7333502A7AAEB4006479B0 /* ToDoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73334F2A7AAEB4006479B0 /* ToDoEntity.swift */; };
+		1C7333522A7AAEBA006479B0 /* ToDoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333512A7AAEBA006479B0 /* ToDoRouter.swift */; };
+		1C7333542A7AB2B1006479B0 /* ToDoListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333532A7AB2B1006479B0 /* ToDoListProtocols.swift */; };
+		1C7333572A7BC2D1006479B0 /* DetailToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333562A7BC2D1006479B0 /* DetailToDoListView.swift */; };
+		1C7333592A7BC2E8006479B0 /* DetailToDoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333582A7BC2E8006479B0 /* DetailToDoListInteractor.swift */; };
+		1C73335B2A7BC2EE006479B0 /* DetailToDoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73335A2A7BC2EE006479B0 /* DetailToDoListPresenter.swift */; };
+		1C73335D2A7BC2F3006479B0 /* DetailToDoListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73335C2A7BC2F3006479B0 /* DetailToDoListEntity.swift */; };
+		1C73335F2A7BC2FD006479B0 /* DetailToDoListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73335E2A7BC2FD006479B0 /* DetailToDoListRouter.swift */; };
+		1C7333612A7BC32C006479B0 /* DetailToDoListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333602A7BC32C006479B0 /* DetailToDoListProtocols.swift */; };
+		1C7333642A7BD3D7006479B0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1C7333632A7BD3D7006479B0 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +32,21 @@
 		1C7333342A7AADF1006479B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C7333362A7AADF1006479B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1C7333382A7AADF1006479B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1C73333B2A7AADF1006479B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C73333D2A7AADF3006479B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C7333402A7AADF3006479B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C7333422A7AADF3006479B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7333492A7AAE93006479B0 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		1C73334B2A7AAE9D006479B0 /* ToDoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoInteractor.swift; sourceTree = "<group>"; };
+		1C73334D2A7AAEA5006479B0 /* ToDoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoPresenter.swift; sourceTree = "<group>"; };
+		1C73334F2A7AAEB4006479B0 /* ToDoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoEntity.swift; sourceTree = "<group>"; };
+		1C7333512A7AAEBA006479B0 /* ToDoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRouter.swift; sourceTree = "<group>"; };
+		1C7333532A7AB2B1006479B0 /* ToDoListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListProtocols.swift; sourceTree = "<group>"; };
+		1C7333562A7BC2D1006479B0 /* DetailToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailToDoListView.swift; sourceTree = "<group>"; };
+		1C7333582A7BC2E8006479B0 /* DetailToDoListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailToDoListInteractor.swift; sourceTree = "<group>"; };
+		1C73335A2A7BC2EE006479B0 /* DetailToDoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailToDoListPresenter.swift; sourceTree = "<group>"; };
+		1C73335C2A7BC2F3006479B0 /* DetailToDoListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailToDoListEntity.swift; sourceTree = "<group>"; };
+		1C73335E2A7BC2FD006479B0 /* DetailToDoListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailToDoListRouter.swift; sourceTree = "<group>"; };
+		1C7333602A7BC32C006479B0 /* DetailToDoListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailToDoListProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C7333642A7BD3D7006479B0 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +80,42 @@
 		1C7333332A7AADF1006479B0 /* VIPER_Test_3 */ = {
 			isa = PBXGroup;
 			children = (
+				1C7333552A7BC29A006479B0 /* DetailToDo */,
+				1C7333482A7AAE82006479B0 /* ToDoList */,
 				1C7333342A7AADF1006479B0 /* AppDelegate.swift */,
 				1C7333362A7AADF1006479B0 /* SceneDelegate.swift */,
 				1C7333382A7AADF1006479B0 /* ViewController.swift */,
-				1C73333A2A7AADF1006479B0 /* Main.storyboard */,
 				1C73333D2A7AADF3006479B0 /* Assets.xcassets */,
 				1C73333F2A7AADF3006479B0 /* LaunchScreen.storyboard */,
 				1C7333422A7AADF3006479B0 /* Info.plist */,
 			);
 			path = VIPER_Test_3;
+			sourceTree = "<group>";
+		};
+		1C7333482A7AAE82006479B0 /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				1C7333532A7AB2B1006479B0 /* ToDoListProtocols.swift */,
+				1C7333492A7AAE93006479B0 /* ToDoListView.swift */,
+				1C73334B2A7AAE9D006479B0 /* ToDoInteractor.swift */,
+				1C73334D2A7AAEA5006479B0 /* ToDoPresenter.swift */,
+				1C73334F2A7AAEB4006479B0 /* ToDoEntity.swift */,
+				1C7333512A7AAEBA006479B0 /* ToDoRouter.swift */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		1C7333552A7BC29A006479B0 /* DetailToDo */ = {
+			isa = PBXGroup;
+			children = (
+				1C7333602A7BC32C006479B0 /* DetailToDoListProtocols.swift */,
+				1C7333562A7BC2D1006479B0 /* DetailToDoListView.swift */,
+				1C7333582A7BC2E8006479B0 /* DetailToDoListInteractor.swift */,
+				1C73335A2A7BC2EE006479B0 /* DetailToDoListPresenter.swift */,
+				1C73335C2A7BC2F3006479B0 /* DetailToDoListEntity.swift */,
+				1C73335E2A7BC2FD006479B0 /* DetailToDoListRouter.swift */,
+			);
+			path = DetailToDo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +134,9 @@
 			dependencies = (
 			);
 			name = VIPER_Test_3;
+			packageProductDependencies = (
+				1C7333632A7BD3D7006479B0 /* SnapKit */,
+			);
 			productName = VIPER_Test_3;
 			productReference = 1C7333312A7AADF1006479B0 /* VIPER_Test_3.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 1C7333282A7AADF1006479B0;
+			packageReferences = (
+				1C7333622A7BD3D7006479B0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 1C7333322A7AADF1006479B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +184,6 @@
 			files = (
 				1C7333412A7AADF3006479B0 /* LaunchScreen.storyboard in Resources */,
 				1C73333E2A7AADF3006479B0 /* Assets.xcassets in Resources */,
-				1C73333C2A7AADF1006479B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,22 +195,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C7333392A7AADF1006479B0 /* ViewController.swift in Sources */,
+				1C73335F2A7BC2FD006479B0 /* DetailToDoListRouter.swift in Sources */,
+				1C73335B2A7BC2EE006479B0 /* DetailToDoListPresenter.swift in Sources */,
+				1C73335D2A7BC2F3006479B0 /* DetailToDoListEntity.swift in Sources */,
 				1C7333352A7AADF1006479B0 /* AppDelegate.swift in Sources */,
+				1C7333522A7AAEBA006479B0 /* ToDoRouter.swift in Sources */,
+				1C7333542A7AB2B1006479B0 /* ToDoListProtocols.swift in Sources */,
+				1C73334A2A7AAE93006479B0 /* ToDoListView.swift in Sources */,
+				1C7333592A7BC2E8006479B0 /* DetailToDoListInteractor.swift in Sources */,
+				1C73334C2A7AAE9D006479B0 /* ToDoInteractor.swift in Sources */,
+				1C7333502A7AAEB4006479B0 /* ToDoEntity.swift in Sources */,
+				1C73334E2A7AAEA5006479B0 /* ToDoPresenter.swift in Sources */,
+				1C7333612A7BC32C006479B0 /* DetailToDoListProtocols.swift in Sources */,
 				1C7333372A7AADF1006479B0 /* SceneDelegate.swift in Sources */,
+				1C7333572A7BC2D1006479B0 /* DetailToDoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1C73333A2A7AADF1006479B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C73333B2A7AADF1006479B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1C73333F2A7AADF3006479B0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +352,7 @@
 				INFOPLIST_FILE = VIPER_Test_3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +380,7 @@
 				INFOPLIST_FILE = VIPER_Test_3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +418,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C7333622A7BD3D7006479B0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C7333632A7BD3D7006479B0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C7333622A7BD3D7006479B0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C7333292A7AADF1006479B0 /* Project object */;
 }
