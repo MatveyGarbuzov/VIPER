@@ -19,6 +19,4 @@ class DetailToDoListInteractor: DetailToDoListInteractorInputProtocol {
     func setItem(_ item: ToDoItem) {
         self.item = item
     }
-    
 }
-

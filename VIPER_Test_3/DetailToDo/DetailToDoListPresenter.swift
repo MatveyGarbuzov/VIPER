@@ -30,6 +30,4 @@ extension DetailToDoListPresenter: DetailToDoListInteractorOutputProtocol {
     func onError(message: String) {
         view?.update(with: message)
     }
-
-
 }

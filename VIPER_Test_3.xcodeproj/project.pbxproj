@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1C7333352A7AADF1006479B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333342A7AADF1006479B0 /* AppDelegate.swift */; };
 		1C7333372A7AADF1006479B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333362A7AADF1006479B0 /* SceneDelegate.swift */; };
-		1C7333392A7AADF1006479B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333382A7AADF1006479B0 /* ViewController.swift */; };
 		1C73333E2A7AADF3006479B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C73333D2A7AADF3006479B0 /* Assets.xcassets */; };
 		1C7333412A7AADF3006479B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C73333F2A7AADF3006479B0 /* LaunchScreen.storyboard */; };
 		1C73334A2A7AAE93006479B0 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7333492A7AAE93006479B0 /* ToDoListView.swift */; };
@@ -31,7 +30,6 @@
 		1C7333312A7AADF1006479B0 /* VIPER_Test_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER_Test_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7333342A7AADF1006479B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C7333362A7AADF1006479B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C7333382A7AADF1006479B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C73333D2A7AADF3006479B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C7333402A7AADF3006479B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C7333422A7AADF3006479B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 				1C7333482A7AAE82006479B0 /* ToDoList */,
 				1C7333342A7AADF1006479B0 /* AppDelegate.swift */,
 				1C7333362A7AADF1006479B0 /* SceneDelegate.swift */,
-				1C7333382A7AADF1006479B0 /* ViewController.swift */,
 				1C73333D2A7AADF3006479B0 /* Assets.xcassets */,
 				1C73333F2A7AADF3006479B0 /* LaunchScreen.storyboard */,
 				1C7333422A7AADF3006479B0 /* Info.plist */,
@@ -128,6 +125,7 @@
 				1C73332D2A7AADF1006479B0 /* Sources */,
 				1C73332E2A7AADF1006479B0 /* Frameworks */,
 				1C73332F2A7AADF1006479B0 /* Resources */,
+				1C7333652A7CE358006479B0 /* SwiftLint\ */,
 			);
 			buildRules = (
 			);
@@ -189,12 +187,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C7333652A7CE358006479B0 /* SwiftLint\ */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint\\";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C73332D2A7AADF1006479B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C7333392A7AADF1006479B0 /* ViewController.swift in Sources */,
 				1C73335F2A7BC2FD006479B0 /* DetailToDoListRouter.swift in Sources */,
 				1C73335B2A7BC2EE006479B0 /* DetailToDoListPresenter.swift in Sources */,
 				1C73335D2A7BC2F3006479B0 /* DetailToDoListEntity.swift in Sources */,

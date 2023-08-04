@@ -11,7 +11,8 @@ import UIKit
 final class DetailToDoListRouter: DetailToDoListRouterProtocol {
     static func make(with item: ToDoItem) -> UIViewController {
         let todoListViewController = DetailToDoListViewController()
-        var presenter: DetailToDoListPresenterProtocol & DetailToDoListInteractorOutputProtocol = DetailToDoListPresenter()
+        var presenter: DetailToDoListPresenterProtocol
+                        & DetailToDoListInteractorOutputProtocol = DetailToDoListPresenter()
         var interactor: DetailToDoListInteractorInputProtocol = DetailToDoListInteractor()
         let router = DetailToDoListRouter()
 
@@ -28,7 +29,7 @@ final class DetailToDoListRouter: DetailToDoListRouterProtocol {
     }
 
     func hideDetailToDoItem(from view: DetailToDoListViewProtocol) {
-        guard let viewVC = view as? UIViewController else  {
+        guard let viewVC = view as? UIViewController else {
             fatalError("Invalid view protocol type")
         }
         viewVC.navigationController?.popViewController(animated: true)
