@@ -16,7 +16,6 @@ protocol ToDoListViewProtocol {
     func update(with error: String)
 }
 
-
 protocol ToDoListPresenterProtocol {
     var view: ToDoListViewProtocol? { get set }
     var interactor: ToDoListInteractorInputProtocol? { get set }

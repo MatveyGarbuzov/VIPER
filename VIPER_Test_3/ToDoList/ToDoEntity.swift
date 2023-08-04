@@ -37,8 +37,5 @@ class ToDoItemsDB {
         }
     }
 
-    func update(_ item: ToDoItem) {
-        // TODO: Добавить обновление задачи
-        print("TODO: Добавить обновление задачи")
-    }
+    func update(_ item: ToDoItem) { }
 }

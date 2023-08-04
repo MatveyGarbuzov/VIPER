@@ -91,7 +91,6 @@ final class ToDoListViewController: UIViewController {
 
     // MARK: Public functions
 
-
     // MARK: @objc functions
     @objc
     func addButtonTapped() {
@@ -136,7 +135,11 @@ extension ToDoListViewController: UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: true)
     }
 
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+    func tableView(
+        _ tableView: UITableView,
+        commit editingStyle: UITableViewCell.EditingStyle,
+        forRowAt indexPath: IndexPath
+    ) {
         if editingStyle == .delete {
             let item = items[indexPath.row]
             presenter?.removeItem(item)

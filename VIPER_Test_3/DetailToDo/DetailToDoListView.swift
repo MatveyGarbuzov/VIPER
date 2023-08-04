@@ -92,7 +92,6 @@ final class DetailToDoListViewController: UIViewController {
 
 }
 
-
 extension DetailToDoListViewController: DetailToDoListViewProtocol {
     func update(with item: ToDoItem) {
         print("Update!")
